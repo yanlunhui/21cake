@@ -26,7 +26,6 @@
     <ul class="carousel-indicators">
         <li v-for="(img,idx) of imgs" :key="idx" :class="idx==i?'active':''" @click="moveTo(idx)"></li>
     </ul>
-
   </div>
 </template>
 <script>
